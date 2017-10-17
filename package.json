@@ -1,0 +1,31 @@
+{
+  "name": "SlackDNA",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carloslahrssen/slackapitest.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/carloslahrssen/slackapitest/issues"
+  },
+  "homepage": "https://github.com/carloslahrssen/slackapitest#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "dotenv": "^4.0.0",
+    "express": "^4.16.2",
+    "mysql": "^2.15.0",
+    "mysqldump": "^1.4.2",
+    "nodemon": "^1.12.1",
+    "request": "^2.83.0",
+    "slackbots": "^1.1.0"
+  }
+}
